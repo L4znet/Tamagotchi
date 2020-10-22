@@ -7,12 +7,7 @@ include('classes/Baby.php');
 $animal1 = new animal('Piggy', 100, 50, 50, 100, 0);
 
 $animal1->be_kind();
-$animal1->be_kind();
-$animal1->be_kind();
-$animal1->be_kind();
-$animal1->be_kind();
-$animal1->be_kind();
-$animal1->be_kind();
+
 
 if ($animal1->make_baby) {
     $baby = new baby('Piggyti', 50, 0, 0);
